@@ -11,7 +11,6 @@ jobs:
     - name: "Tests"
       script:
         - docker build -t tree .
-        - docker run tree
 
 notifications:
   email: false
